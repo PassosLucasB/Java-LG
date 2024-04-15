@@ -4,6 +4,6 @@ public class Erro2 {
 
         int cont = 0;
 
-        System.out.println("Você digitou: " + cont);
+        System.out.println("O contador não foi declarado nem inicializado " + cont);
     }
 }
