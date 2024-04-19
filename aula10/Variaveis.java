@@ -7,13 +7,13 @@ public class Variaveis {
         int idade = 20;
         String nome = "Loiana";
         String nomeDoMeuCachorro = "totó";
-        String ano2014;
+        String ano2014 = "2014";
 
         // aceito, mas não utilizado
         int _idade;
         int $idade;
 
-        // não é convenção JAV
+        // não é convenção JAVA
         String nome_do_meu_cachorro;
         String NomeDoMeuCachorro;
 
@@ -21,6 +21,10 @@ public class Variaveis {
 
         System.out.println("Idade = " + idade);
         System.out.println("Nome = " + nome);
+
+        // má prática
+        int a = 10;
+        String b = "Loiane";
     }
 
 }
