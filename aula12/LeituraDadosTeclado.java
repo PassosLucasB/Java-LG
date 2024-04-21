@@ -7,6 +7,8 @@ public class LeituraDadosTeclado {
 
         Scanner scan = new Scanner(System.in);
 
+        System.out.println();
+
     }
 
 }
