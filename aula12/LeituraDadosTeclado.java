@@ -7,7 +7,8 @@ public class LeituraDadosTeclado {
 
         Scanner scan = new Scanner(System.in);
 
-        System.out.println();
+        System.out.println("Digite seu nome completo:");
+        String nomeCompleto = scan.nextLine();
 
     }
 
