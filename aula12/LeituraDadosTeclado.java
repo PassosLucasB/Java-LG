@@ -9,6 +9,11 @@ public class LeituraDadosTeclado {
 
         System.out.println("Digite seu nome completo:");
         String nomeCompleto = scan.nextLine();
+        System.out.println("Seu nome completo é: " + nomeCompleto);
+
+        System.out.println("Digite seu primeiro nome: ");
+        String primeiroNome = scan.next();
+        System.out.println("Seu primeiro nome é: " + primeiroNome);
 
     }
 
