@@ -8,6 +8,10 @@ public class OperadoresAritmeticos {
         System.out.println(resultado);
 
         resultado = resultado - 1;
+        System.out.println(resultado);
+
+        resultado = resultado * 2;
+        System.out.println(resultado);
 
     }
 
