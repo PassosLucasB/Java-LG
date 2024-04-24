@@ -13,6 +13,15 @@ public class OperadoresAritmeticos {
         resultado = resultado * 2;
         System.out.println(resultado);
 
+        resultado = resultado / 2;
+        System.out.println(resultado);
+
+        resultado = resultado + 8;
+        System.out.println(resultado);
+
+        resultado = resultado % 7;
+        System.out.println(resultado);
+
     }
 
 }
