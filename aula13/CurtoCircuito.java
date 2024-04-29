@@ -4,8 +4,8 @@ public class CurtoCircuito {
 
         boolean verdadeiro = true;
         boolean falso = false;
-        boolean resultado1 = f & falso;
-        boolean resultado2 = verdadeiro && falso;
+        boolean resultado1 = falso & verdadeiro;
+        boolean resultado2 = falso && verdadeiro;
         System.out.println(resultado1);
         System.out.println(resultado2);
 
