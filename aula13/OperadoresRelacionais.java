@@ -12,5 +12,6 @@ public class OperadoresRelacionais {
         System.out.println("valor1 > valor2: " + (valor1 > valor2));
         System.out.println("valor1 >= valor2: " + (valor1 >= valor2));
         System.out.println("valor1 < valor2: " + (valor1 < valor2));
+        System.out.println("valor1 <= valor2: " + (valor1 <= valor2));
     }
 }
