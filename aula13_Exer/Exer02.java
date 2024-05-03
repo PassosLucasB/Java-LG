@@ -1,4 +1,3 @@
-package aula13_Exer;
 
 //Exercico 02 = Faça um programa que pea um numero e então monstre a mensagem
 // "O numero informado foi [numero]."

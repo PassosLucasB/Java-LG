@@ -14,8 +14,8 @@ public class Variaveis {
         int $idade;
 
         // não é convenção JAVA
-        String nome_do_meu_cachorro;
-        String NomeDoMeuCachorro;
+        // String nome_do_meu_cachorro;
+        // String NomeDoMeuCachorro;
 
         idade = 25;
 
