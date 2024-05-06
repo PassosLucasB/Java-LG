@@ -10,6 +10,13 @@ public class Exer09 {
 
         Scanner scan = new Scanner(System.in);
 
+        System.out.println("Digite a temperatura em Farenheit: ");
+        double f = scan.nextDouble();
+
+        double c = (5 * (f - 31) / 9);
+
+        System.out.println("A temperatura  " + f + " F é igual a " + c + " C");
+
     }
 
 }
