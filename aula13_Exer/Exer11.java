@@ -22,6 +22,6 @@ public class Exer11 {
         System.out.println("Digite um número real: ");
         double num3 = scan.nextDouble();
 
-        int resultado1 = (num1 * 2) *
+        int resultado1 = (num1 * 2) * (num2 / 2);
     }
 }
