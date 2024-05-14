@@ -1,4 +1,3 @@
-package aula13_Exer;
 
 import java.util.Scanner;
 

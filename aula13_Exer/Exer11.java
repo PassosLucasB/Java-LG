@@ -1,8 +1,7 @@
 
+import java.util.Scanner;
+
 public class Exer11 {
-
-    import java.util.Scanner;
-
     // Exercicio11 = Faça um programa que peça 2 numers inteiros e um numero real
     // Calcule e mostre:
     // a) o produto do dobro do primeiro com metade do sengundo
@@ -23,5 +22,12 @@ public class Exer11 {
         double num3 = scan.nextDouble();
 
         int resultado1 = (num1 * 2) * (num2 / 2);
+        double resultado2 = (num1 * 3) + num3;
+        double resultado3 = Math.pow(num3, 3);
+
+        System.out.println("O resultado 1: " + resultado1);
+        System.out.println("O resultado 2: " + resultado2);
+        System.out.println("O resultado 3: " + resultado3);
+
     }
 }

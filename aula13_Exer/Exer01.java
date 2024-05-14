@@ -1,4 +1,3 @@
-package aula13_Exer;
 
 public class Exer01 {
 

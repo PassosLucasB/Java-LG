@@ -1,4 +1,3 @@
-package aula13_Exer;
 
 //Exercico 03 = Faça um Programa que peça dois numeros e imprima a soma.
 
