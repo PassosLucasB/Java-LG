@@ -12,7 +12,10 @@ public class Exer01 {
         System.out.println("Digite outro número: ");
         int num2 = scan.nextInt();
 
-
-
+        if (num1 > num2){
+            System.out.println("O num1 é maior: " + num1);
+        } else {
+            System.out.println("O num2 é maior: " + num2);
+        }
     }
 }
