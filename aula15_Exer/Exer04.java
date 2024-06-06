@@ -19,18 +19,25 @@ public class Exer04 {
             System.out.println("consoante");
         }*/
 
-        switch(letra){
-            case "a":
-            case "e":
-            case "i":
-            case "o":
-            case "u":
-            case "A":
-            case "E":
-            case "I":
-            case "O":
-            case "U":System.out.println("vogal"); break;
-            default: System.out.println("consoante");
+        if (letra.length() > 1){
+            System.out.println("Não é uma letra válida");
+        } else {
+            switch(letra) {
+                case "a":
+                case "e":
+                case "i":
+                case "o":
+                case "u":
+                case "A":
+                case "E":
+                case "I":
+                case "O":
+                case "U":
+                    System.out.println("vogal");
+                    break;
+                default:
+                    System.out.println("consoante");
+            }
         }
     }
 }
