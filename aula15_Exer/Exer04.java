@@ -19,7 +19,18 @@ public class Exer04 {
             System.out.println("consoante");
         }*/
 
-        switch(letra)
-
+        switch(letra){
+            case "a":
+            case "e":
+            case "i":
+            case "o":
+            case "u":
+            case "A":
+            case "E":
+            case "I":
+            case "O":
+            case "U":System.out.println("vogal"); break;
+            default: System.out.println("consoante");
+        }
     }
 }
